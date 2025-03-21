@@ -35,6 +35,12 @@ Our approach consists of the following steps:
    embeddings, while the z coordinate corresponds to the
    fitness score of a circuit.
 
+Ideally, we would like our fitness function to share its
+global optimum with a behavior-oriented fitness function
+like the Jensen-Shannon Distance, but have few local optima.
+The corresponding landscape would allow for efficient
+search using local hill-climbing.
+
 ## Important Notice
 
 In version 0.3.0, the ga4qc specification requires
