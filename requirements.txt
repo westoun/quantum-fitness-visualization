@@ -3,6 +3,7 @@ editdistance==0.8.1
 ga4qc==0.3.0
 joblib==1.4.2
 llvmlite==0.44.0
+matplotlib==3.10.1
 numba==0.61.0
 numpy==2.1.0
 pynndescent==0.5.13
